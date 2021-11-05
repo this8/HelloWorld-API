@@ -14,4 +14,5 @@ func main() {
 		w.Write([]byte("Hello World!"))
 	})
 	http.ListenAndServe("localhost:3000", r)
+	fmt.Println("Hello NSBM Foss!!!")
 }
