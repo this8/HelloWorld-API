@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/go-chi/chi"
@@ -15,4 +16,5 @@ func main() {
 	})
 	http.ListenAndServe("localhost:3000", r)
 	fmt.Println("Hello NSBM Foss!!!")
+
 }
